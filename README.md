@@ -24,6 +24,11 @@ ruby -e "$(curl -fsSL https://raw.github.com/wellsriley/YosemiteSanFranciscoFont
 1. Navigate to `/Library/Fonts` on your Mac and delete the files starting with `System San Francisco`.
 2. Log out and log back in to apply the changes.
 
+### Known Issues:
+* [Fonts render strangely in Chrome and some other places](https://github.com/wellsriley/YosemiteSanFranciscoFont/issues/4)
+* [System Alert dialogs render as all ⓐⓐⓐⓐⓐ when installed improperly](https://github.com/wellsriley/YosemiteSanFranciscoFont/issues/3)
+Open a [GitHub Issue](https://github.com/wellsriley/YosemiteSanFranciscoFont/issues) if you have a problem!
+
 ### How does it Work?
 These San Francisco fonts have a special name table with names identical to those of the system fonts. Because the font folder `/Library/Fonts` takes precedence over the fonts which are in `/System/Library/Fonts`, these specially crafted fonts are used for the user interface instead of the real system fonts. The original system fonts are not deleted or modified in any way.
 
