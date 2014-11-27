@@ -27,6 +27,7 @@ ruby -e "$(curl -fsSL https://raw.github.com/wellsriley/YosemiteSanFranciscoFont
 ### Known Issues:
 * [Fonts render strangely in Chrome and some other places](https://github.com/wellsriley/YosemiteSanFranciscoFont/issues/4)
 * [System Alert dialogs render as all ⓐⓐⓐⓐⓐ when installed improperly](https://github.com/wellsriley/YosemiteSanFranciscoFont/issues/3)
+
 Open a [GitHub Issue](https://github.com/wellsriley/YosemiteSanFranciscoFont/issues) if you have a problem!
 
 ### How does it Work?
